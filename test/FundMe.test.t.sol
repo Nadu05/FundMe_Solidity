@@ -12,7 +12,7 @@ contract FundMeTest is Test {
     
     
     function setUp() external {
-        fundme = new FundMe();
+        fundme = new FundMe(address(0x694AA1769357215DE4FAC081bf1f309aDC325306));
         number = 5 ;
     }
 
